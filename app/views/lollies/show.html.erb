@@ -1,0 +1,19 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Name:</strong>
+  <%= @lolly.name %>
+</p>
+
+<p>
+  <strong>Description:</strong>
+  <%= @lolly.description %>
+</p>
+
+<p>
+  <strong>Price:</strong>
+  <%= @lolly.price %>
+</p>
+
+<%= link_to 'Edit', edit_lolly_path(@lolly) %> |
+<%= link_to 'Back', lollies_path %>

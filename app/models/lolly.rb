@@ -1,0 +1,2 @@
+class Lolly < ApplicationRecord
+end
